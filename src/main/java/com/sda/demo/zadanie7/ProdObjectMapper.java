@@ -15,7 +15,7 @@ public class ProdObjectMapper {
     public ObjectMapper objectMapper() {
         final ObjectMapper objectMapper = new ObjectMapper();
         objectMapper.setSerializationInclusion(JsonInclude.Include.NON_EMPTY);
-        objectMapper.setPropertyNamingStrategy(PropertyNamingStrategy.LowerCaseStrategy);
+//        objectMapper.setPropertyNamingStrategy(PropertyNamingStrategy.LowerCaseStrategy);
         return objectMapper;
     }
 }

@@ -15,5 +15,4 @@ import java.util.Map;
 public class NamedPairs {
     private String name;
     Map<String, String> pairs;
-    new Comparable
 }
